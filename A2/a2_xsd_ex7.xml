@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<matricula>
+  <ciclo>DAM</ciclo>
+  <alumnos>
+    <alumno>
+      <nombre>Juan</nombre>
+      <year>2000</year>
+      <asignaturas>
+        <asignatura>Programación</asignatura>
+        <asignatura>Bases de Datos</asignatura>
+      </asignaturas>
+    </alumno>
+    <alumno>
+      <nombre>Ana</nombre>
+      <year>2001</year>
+      <asignaturas>
+        <asignatura>Lenguajes de Marcas</asignatura>
+        <asignatura>Sistemas Informáticos</asignatura>
+      </asignaturas>
+    </alumno>
+  </alumnos>
+</matricula>

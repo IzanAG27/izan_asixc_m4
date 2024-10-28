@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<fichas xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="file.xsd">
+    <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema" targetNamespace="" elementFormDefault="qualified">
+        <xs:element name="fichas">
+            <xs:complexType>
+                <xs:sequence>
+                    <xs:element name="ficha" maxOccurs="unbounded">
+                        <xs:complexType>
+                            <xs:attribute name="id" type="xs:string" use="required" fixed="01"/>
+                            <xs:attribute name="default" type="xs:string" use="optional" default="00"/>
+                            <xs:element name="nombre" type="xs:string"/>
+                            <xs:element name="edad" type="xs:int"/>
+                        </xs:complexType>
+                    </xs:element>
+                </xs:sequence>
+            </xs:complexType>
+        </xs:element>
+    </xs:schema>
+    <ficha id="01">
+        <nombre>Ana Sanz Tin</nombre>
+        <edad>22</edad>
+    </ficha>
+    <ficha id="01">
+        <nombre>Iker Rubio Mol</nombre>
+        <edad>23</edad>
+    </ficha>
+</fichas>
